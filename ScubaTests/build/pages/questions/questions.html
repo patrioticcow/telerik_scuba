@@ -1,0 +1,13 @@
+<ion-header>
+	<ion-navbar></ion-navbar>
+</ion-header>
+
+<ion-content class="questions">
+	<ion-slides pager #questionSlideOptions [options]="{loop: false, direction: 'vertical'}">
+		<ion-slide padding class="question-item" *ngFor="let question of questions">
+			<p>{{question.id}}) {{question.title}}</p>
+
+			<button block outline #button class="ws-normal answer{{question.id}}" *ngFor="let answer of question.answers" (click)="setSelected(question.id, answer, button)">{{answer}}</button>
+		</ion-slide>
+	</ion-slides>
+</ion-content>
