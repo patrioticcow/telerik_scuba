@@ -1,0 +1,46 @@
+{
+  "ProjectName": "ScubaTests",
+  "ProjectGuid": "8b9cb9a0-1b93-4442-9261-9885aa27ece0",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.test",
+  "DisplayName": "test",
+  "Author": "",
+  "Description": "test",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{2acb2909-6feb-494e-a030-6cd071580c0f}",
+  "WP8ProductID": "{1bd0658c-8270-4df6-82d5-bcdce0ad097a}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.test",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "iOSDeploymentTarget": "6.0"
+}
