@@ -2,10 +2,10 @@
   "ProjectName": "ScubaTests",
   "ProjectGuid": "8b9cb9a0-1b93-4442-9261-9885aa27ece0",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.test",
-  "DisplayName": "test",
-  "Author": "",
-  "Description": "test",
+  "AppIdentifier": "com.massinflux.scubatests",
+  "DisplayName": "ScubaTest",
+  "Author": "Cristi Citea",
+  "Description": "Get ready for your scuba exam",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
@@ -25,8 +25,8 @@
   "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
-  "WP8TileTitle": "",
-  "WP8Publisher": "",
+  "WP8TileTitle": "Scuba Test",
+  "WP8Publisher": "Cristi Citea",
   "WP8Capabilities": [
     "ID_CAP_NETWORKING",
     "ID_CAP_WEBBROWSERCOMPONENT"
@@ -42,5 +42,12 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "iOSDeploymentTarget": "6.0"
+  "iOSDeploymentTarget": "6.0",
+  "CorePlugins": [
+    "cordova-plugin-crosswalk-webview@1.7.2",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-inappbrowser",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-whitelist"
+  ]
 }
